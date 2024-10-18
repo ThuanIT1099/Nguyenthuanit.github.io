@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đăng Nhập</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="images/images.jpg" alt="image" class="ad-image">
+        <h2>Đăng Nhập</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Tên Tài Khoản:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Mật Khẩu:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="button" id="togglePassword">Hiện</button>
+            </div>
+            <button type="submit">Đăng Nhập</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
